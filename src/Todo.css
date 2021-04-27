@@ -1,0 +1,32 @@
+.listsdesign{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+
+.editbtn{
+  border: 1px solid rgb(85, 84, 84);
+  font-size: 30px;
+  color:rgb(124, 124, 124);
+  margin-right: 25px;
+  padding:5px;
+}
+.editbtn:hover{
+  cursor: pointer;
+  background-color: rgb(37, 36, 36);
+}
+
+.deletebtn{
+  margin-right: 200px;
+  padding:5px;
+  border: 1px solid red;
+  font-size: 30px;
+  /*color:rgb(124, 124, 124);*/
+  color: rgb(247, 51, 51);
+}
+.deletebtn:hover{
+  cursor: pointer;
+  background-color: rgb(37, 36, 36);
+}
